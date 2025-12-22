@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "offline-photo-recognition-training", "offline-photo-recognition-training\offline-photo-recognition-training.csproj", "{288D3E7E-BDE3-4E2F-8D8B-46C611855425}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{288D3E7E-BDE3-4E2F-8D8B-46C611855425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288D3E7E-BDE3-4E2F-8D8B-46C611855425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288D3E7E-BDE3-4E2F-8D8B-46C611855425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288D3E7E-BDE3-4E2F-8D8B-46C611855425}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96444E02-7232-40EB-B05C-492A3AADBA5C}
+	EndGlobalSection
+EndGlobal
