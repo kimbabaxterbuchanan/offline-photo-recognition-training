@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             picBxImage = new PictureBox();
-            btnTestPhoto = new Button();
+            btnComparePhoto = new Button();
             btnTtrainPhoto = new Button();
             txtBxRresult = new TextBox();
             label1 = new Label();
             chkBxCpus = new CheckBox();
+            btnPredictEmotion = new Button();
             ((System.ComponentModel.ISupportInitialize)picBxImage).BeginInit();
             SuspendLayout();
             // 
@@ -45,15 +46,15 @@
             picBxImage.TabIndex = 0;
             picBxImage.TabStop = false;
             // 
-            // btnTestPhoto
+            // btnComparePhoto
             // 
-            btnTestPhoto.Location = new Point(12, 32);
-            btnTestPhoto.Name = "btnTestPhoto";
-            btnTestPhoto.Size = new Size(150, 23);
-            btnTestPhoto.TabIndex = 1;
-            btnTestPhoto.Text = "Test";
-            btnTestPhoto.UseVisualStyleBackColor = true;
-            btnTestPhoto.Click += btnTestPhoto_Click;
+            btnComparePhoto.Location = new Point(12, 32);
+            btnComparePhoto.Name = "btnComparePhoto";
+            btnComparePhoto.Size = new Size(150, 23);
+            btnComparePhoto.TabIndex = 1;
+            btnComparePhoto.Text = "Compare";
+            btnComparePhoto.UseVisualStyleBackColor = true;
+            btnComparePhoto.Click += btnComparePhoto_Click;
             // 
             // btnTtrainPhoto
             // 
@@ -92,18 +93,30 @@
             chkBxCpus.Text = "Cpus -1";
             chkBxCpus.UseVisualStyleBackColor = true;
             // 
-            // OfflinePhotosRecognition
+            // btnPredictEmotion
+            // 
+            btnPredictEmotion.Location = new Point(179, 61);
+            btnPredictEmotion.Name = "btnPredictEmotion";
+            btnPredictEmotion.Size = new Size(150, 23);
+            btnPredictEmotion.TabIndex = 6;
+            btnPredictEmotion.Text = "Predict Emotion";
+            btnPredictEmotion.UseVisualStyleBackColor = true;
+            btnPredictEmotion.Visible = false;
+            btnPredictEmotion.Click += btnPredictEmotion_Click;
+            // 
+            // OfflinePhotosRecognitionForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1045, 786);
+            Controls.Add(btnPredictEmotion);
             Controls.Add(chkBxCpus);
             Controls.Add(label1);
             Controls.Add(txtBxRresult);
             Controls.Add(btnTtrainPhoto);
-            Controls.Add(btnTestPhoto);
+            Controls.Add(btnComparePhoto);
             Controls.Add(picBxImage);
-            Name = "OfflinePhotosRecognition";
+            Name = "OfflinePhotosRecognitionForm";
             Text = " Offline Photo Recognition";
             ((System.ComponentModel.ISupportInitialize)picBxImage).EndInit();
             ResumeLayout(false);
@@ -114,10 +127,11 @@
         #endregion
 
         private PictureBox picBxImage;
-        private Button btnTestPhoto;
+        private Button btnComparePhoto;
         private Button btnTtrainPhoto;
         private TextBox txtBxRresult;
         private Label label1;
         private CheckBox chkBxCpus;
+        private Button btnPredictEmotion;
     }
 }
