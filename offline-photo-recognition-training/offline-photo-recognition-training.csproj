@@ -26,13 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="emotion-ferplus-8.onnx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="Hog\dlib_face_recognition_resnet_model_v1.dat">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Hog\emotion-ferplus-8.onnx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Hog\shape_predictor_68_face_landmarks.dat">
